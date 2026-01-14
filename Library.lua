@@ -1,5 +1,4 @@
 
-
 local Library = {
     Version = "1.0.0",
     Name = "Project Spectre",
