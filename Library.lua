@@ -1,4 +1,5 @@
 
+
 local Library = {
     Version = "1.0.0",
     Name = "Project Spectre",
@@ -551,7 +552,7 @@ function Library:SetWatermarkVisibility(visible)
     end
 end
 
-return Library
+-- return Library -- REMOVED: Premature return causing syntax error
 
 -- ========== TOGGLE ==========
 function Groupbox:AddToggle(idx, config)
